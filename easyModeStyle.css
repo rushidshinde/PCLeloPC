@@ -1,0 +1,14 @@
+body{
+    background-image: url(./img/bgdemo4.jpg);
+    background-size:cover;  
+    background-repeat:repeat;
+    background-position:center center; 
+    overflow:hidden;
+}
+hr{
+    border-top: 1px dashed black;
+}
+
+.navbar-nav>li>a:hover{
+    color:red !important;
+}

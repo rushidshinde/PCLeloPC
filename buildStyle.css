@@ -1,0 +1,21 @@
+body {
+    overflow: hidden;
+}
+#easyModeBg {
+    background-image: url(./img/demo3.jpg);
+    background-size:cover;  
+    background-repeat:repeat;
+    background-position:center center;
+}
+#advancedModebg {
+    background-image: url(./img/demo2.jpg);
+    background-size:cover;  
+    background-repeat:repeat;
+    background-position:center center;
+}
+.modeName {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
